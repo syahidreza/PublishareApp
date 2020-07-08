@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "732953508250",
+    "firebase_url": "https://publishareapp.firebaseio.com",
+    "project_id": "publishareapp",
+    "storage_bucket": "publishareapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732953508250:android:3148088c68ed85f5832223",
+        "android_client_info": {
+          "package_name": "com.android.syahidreza.publishareapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732953508250-dmjlgfs3bcjqr6g7liedsh4im7ill9kd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6IyY7414lUa3lLA_fiLesni6a5837c60"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "732953508250-dmjlgfs3bcjqr6g7liedsh4im7ill9kd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
