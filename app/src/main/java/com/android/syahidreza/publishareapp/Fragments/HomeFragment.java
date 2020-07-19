@@ -44,15 +44,11 @@ public class HomeFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-
     RecyclerView postRecyclerView ;
     PostAdapter postAdapter ;
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference ;
     List<Post> postList;
-
-
-
 
     public HomeFragment() {
         // Required empty public constructor
@@ -111,17 +107,13 @@ public class HomeFragment extends Fragment {
                 for (DataSnapshot postsnap: dataSnapshot.getChildren()) {
                     Post post = postsnap.getValue(Post.class);
                     postList.add(post) ;
-
-
-
                 }
 
+                // urutan post dibalik agar menampilkan post terbaru
                 Collections.reverse(postList);
 
                 postAdapter = new PostAdapter(getActivity(),postList);
                 postRecyclerView.setAdapter(postAdapter);
-
-
             }
 
             @Override
@@ -129,9 +121,6 @@ public class HomeFragment extends Fragment {
 
             }
         });
-
-
-
     }
 
     // TODO: Rename method, update argument and hook method into UI event

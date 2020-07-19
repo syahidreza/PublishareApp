@@ -63,15 +63,12 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
         setSupportActionBar(toolbar);
 
         // ini
-
         mAuth = FirebaseAuth.getInstance();
         currentUser = mAuth.getCurrentUser();
 
         // ini popup
         iniPopup();
         setupPopupImageClick();
-
-
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
