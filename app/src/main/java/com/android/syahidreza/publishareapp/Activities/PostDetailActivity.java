@@ -45,9 +45,9 @@ public class PostDetailActivity extends AppCompatActivity {
 
 
         // menjadikan statusbar transparan agar lebih  a e s t h e t i c
-        Window w = getWindow();
-        w.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
-        getSupportActionBar().hide();
+//        Window w = getWindow();
+//        w.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
+//        getSupportActionBar().hide();
 
         // ini Views
 
